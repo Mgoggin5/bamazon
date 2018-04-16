@@ -12,34 +12,34 @@ CREATE TABLE Products (
   StockQuantity int NOT NULL);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("1234", "Mens Zip Up Hoodie", "Mens Clothing", 14.99, 30);
+VALUES ("1234", "Mens Zip Up Hoodie", "Mens Clothing", 14.99, 100);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("5678", "Mens Blue Jeans", "Mens Clothing", 19.99, 30);
+VALUES ("5678", "Mens Blue Jeans", "Mens Clothing", 19.99, 120);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("9123", "CD Player", "Technology", 29.99, 35);
+VALUES ("9123", "CD Player", "Technology", 29.99, 100);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("4567", "Bed Comforter", "Home", 20.99, 40);
+VALUES ("4567", "Bed Comforter", "Home", 20.99, 110);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("8901", "Womens Blue Jeans", "Womens Clothing", 19.99, 30);
+VALUES ("8901", "Womens Blue Jeans", "Womens Clothing", 19.99, 100);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("0987", "Smoke Detector", "Home", 21.99, 40);
+VALUES ("0987", "Smoke Detector", "Home", 21.99, 90);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("6543", "Wicker Basket", "Home", 13.99, 25);
+VALUES ("6543", "Wicker Basket", "Home", 13.99, 100);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("2112", "Dog Bed", "Pet", 19.50, 30);
+VALUES ("2112", "Dog Bed", "Pet", 19.50, 115);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("3456", "Bird House", "Pet", 16.75, 30);
+VALUES ("3456", "Bird House", "Pet", 16.75, 105);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
-VALUES ("7890", "Mens White T-Shirt", "Mens Clothing", 9.99, 30);
+VALUES ("7890", "Mens White T-Shirt", "Mens Clothing", 9.99, 100);
 
 USE bamazonDB;
 CREATE TABLE Departments(
